@@ -1,0 +1,107 @@
+{
+  "book_now": "Đặt ngay",
+  "header": {
+    "home": "Trang chủ",
+    "story": "Câu chuyện của chúng tôi",
+    "service": "Dịch vụ",
+    "review": "Đánh giá",
+    "membership": "Thành viên",
+    "book_now": "Đặt ngay",
+    "language": {
+      "en": "Tiếng Anh",
+      "vn": "Tiếng Việt"
+    }
+  },
+  "main_banner": "Mở mắt ra một thế giới mới.",
+  "our_service": "Dịnh vụ của chúng tôi",
+  "section": {
+    "service": {
+      "title": "Dịch vụ",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
+      "service_1": "Gội đầu thảo dược",
+      "service_2": "Massage",
+      "service_3": "Chăm sóc theo liệu trình",
+      "service_4": "Phòng xông hơi",
+      "see_detail": "Xem chi tiết"
+    },
+    "client_review": {
+      "title": "Đánh giá của khách hàng",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
+      "see_detail": "Xem chi tiết",
+      "job": "Sinh viên",
+      "review_1": "Trải nghiệm tuyệt vời tại Bremiere. Sự kết hợp giữa các nhà trị liệu có tay nghề, không gian yên bình và dịch vụ tuyệt vời đã tạo nên một chuyến thăm đáng nhớ. Nhân viên rất thân thiện, chuyên nghiệp và chu đáo. Rất đáng để giới thiệu!!! Kỹ thuật massage rất xuất sắc, hoàn toàn phù hợp với sở thích của tôi. Không gian thư giãn với âm nhạc nhẹ nhàng và ánh sáng dịu dàng thêm vào sự thoải mái. Cơ sở vật chất sạch sẽ và được bảo trì tốt, góp phần vào trải nghiệm tích cực tổng thể. Tôi chắc chắn sẽ quay lại thăm lần nữa sớm thôi.",
+      "review_2": "Nếu bạn đang tìm kiếm một nơi để thoát khỏi cuộc sống xa hoa, đừng tìm đâu xa hơn Bremiere. Sự kết hợp giữa khung cảnh tuyệt đẹp, các nhà trị liệu có tay nghề và dịch vụ xuất sắc tạo nên một trải nghiệm khó quên. Tôi đã rời đi với cảm giác hoàn toàn được tái tạo và chăm sóc. Sự chú ý và chuyên nghiệp của nhân viên thực sự làm tôi ấn tượng. Môi trường yên tĩnh và sự chú ý tỉ mỉ đến từng chi tiết đã làm cho mọi khoảnh khắc trở nên đặc biệt. Bremiere là nơi hoàn hảo để thư giãn và tự thưởng cho mình sự thư giãn xứng đáng.",
+      "review_3": "Chuyến thăm gần đây của tôi đến Bremiere là một trải nghiệm khó quên. Sự chuyên nghiệp của các nhà trị liệu không thể so sánh, kỹ thuật của họ đã làm tôi cảm thấy sảng khoái và tràn đầy năng lượng. Không gian yên bình và nhân viên chu đáo đã làm tăng thêm trải nghiệm. Đây là một điểm đến không thể bỏ qua cho bất kỳ ai muốn tìm kiếm sự thư giãn và tái tạo ở TP.HCM. Cơ sở vật chất sạch sẽ và thiết kế đẹp mắt, tăng thêm cảm giác sang trọng. Tôi rất khuyên bạn nên đến Bremiere nếu đang tìm kiếm một trải nghiệm spa hàng đầu.",
+      "review_4": "Không gian thực sự rất đẹp. Đã có một ngày thư giãn thực sự. Họ cũng có phòng xông hơi/ hơi nước. Nên thử. Ánh sáng dịu và âm nhạc nhẹ nhàng thêm vào môi trường yên tĩnh. Nhân viên cực kỳ thân thiện và chu đáo, luôn đảm bảo chúng tôi có mọi thứ chúng tôi cần. Cơ sở vật chất sạch sẽ và được bảo trì tốt, làm cho trải nghiệm càng thêm thú vị. Tôi rời đi với cảm giác hoàn toàn được tái tạo và không thể chờ đợi để quay lại lần nữa.",
+      "review_5": "Đó là những trải nghiệm tuyệt vời. Sự kết hợp tuyệt vời giữa ánh sáng, âm thanh và kỹ thuật massage thực sự giúp tôi thư giãn và giảm căng thẳng. Các nhà trị liệu có tay nghề cao và chu đáo, tùy chỉnh buổi trị liệu theo nhu cầu của tôi. Không gian rất dễ chịu, với ánh sáng nhẹ nhàng và âm nhạc êm dịu làm tăng thêm trải nghiệm tổng thể. Tôi cảm thấy tất cả căng thẳng của mình tan biến, để lại tôi với cảm giác sảng khoái và tràn đầy năng lượng. Đây chắc chắn là nơi tôi sẽ giới thiệu cho bất kỳ ai muốn thư giãn và giảm căng thẳng."
+    },
+    "membership": {
+      "title": "Thành viên",
+      "description": "Một nơi để chăm sóc sức khỏe và sắc đẹp toàn diện. Chúng tôi tự hào mang đến cho khách hàng những trải nghiệm thư giãn và phục hồi với nhiều dịch vụ khác nhau như",
+      "membership_1": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
+      "membership_2": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
+      "membership_3": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
+      "button_view_all": "Xem tất cả sản phẩm"
+    },
+    "blog": {
+      "title": "Bài viết",
+      "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!",
+      "blog_1": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
+      "blog_2": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
+      "blog_3": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
+      "read_more": "Xem thêm"
+    },
+    "location": {
+      "title": "VỊ TRÍ SPA",
+      "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!"
+    },
+    "hero": {
+      "title": "Get Recharged",
+      "description": "Giảm giá 50% cho cặp đôi đầu tiên"
+    },
+    "appointment": {
+      "title": "Đặt lịch hẹn",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn khi tận hưởng",
+      "address": {
+        "title": "Brelax Spa",
+        "content": "Phường Bến Nghé, Quận 1, ",
+        "content_2": "TP.HCM, Việt Nam"
+      },
+      "contact": {
+        "title": "Chỉ đường",
+        "hotline": "Hotline: (+84) 78 624 7778",
+        "email": "hideaway@brelaxmassage.com"
+      },
+      "open_time": {
+        "title": "Giờ làm việc",
+        "day": "Thứ Hai - Chủ Nhật",
+        "time": "9:30 sáng - 11:00 tối"
+      }
+    }
+  },
+
+  "footer": {
+    "logo": {
+      "address": "Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam",
+      "follow": "Theo dõi chúng tôi"
+    },
+    "page": {
+      "title": "TRANG",
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "blog": "Blog",
+      "contact": "Liên hệ"
+    },
+    "open_time": {
+      "title": "Giờ mở cửa",
+      "day": "Thứ Hai - Chủ Nhật",
+      "time": "9:30 sáng - 11:00 tối"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "phone": "ĐT: (+84) 283 824 7778",
+      "email": "hideaway@brelaxmassage.com",
+      "hotline": "Hotline: (+84) 78 624 7778"
+    }
+  }
+}
