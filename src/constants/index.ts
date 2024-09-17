@@ -5,24 +5,14 @@ export const our_servies = [
     desc: 'brings a comfortable, enjoyable experience with a luxurious space, helping you relax and take care of your.',
     service: [
       {
-        name: 'Makeup & Massage',
+        name: 'ROOTED: 30/60/90',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '300/420/600',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'LEAF: 30/60',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
-      },
-      {
-        name: 'Makeup & Massage',
-        desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
-      },
-      {
-        name: 'Makeup & Massage',
-        desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '270/400',
       },
     ],
   },

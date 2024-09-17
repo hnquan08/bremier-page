@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { useLocale, useTranslations } from 'next-intl'
 import ISO6391 from 'iso-639-1'
-
+import Link from 'next/link'
 import {
   Dialog,
   DialogPanel,
@@ -27,7 +27,6 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 import { locales, usePathname, useRouter } from '@/helpers/navigation'
 import { icons } from '@/static/images/icons'
-import Link from 'next/link'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -58,30 +57,27 @@ export default function Header() {
       icon: SquaresPlusIcon,
     },
     {
-      name: t('header.membership'),
-      href: '/#membership',
+      name: t('header.product'),
+      href: '/#product',
+      icon: ArrowPathIcon,
+    },
+    {
+      name: t('header.brelax_journey'),
+      href: '/#brelax_journey',
       icon: ArrowPathIcon,
     },
     {
       name: t('header.book_now'),
-      href: '/#book_now',
+      href: 'https://bremiere.myspa.vn/booking',
+      target: '_blank',
       icon: ArrowPathIcon,
     },
   ]
   return (
-    <div className="w-full absolute z-10 px-0 lg:px-14 top-0 lg:top-12">
-      <div className="flex flex-row items-center justify-between px-4 py-5 lg:py-0 lg:px-10 border-white bg-white lg:bg-inherit lg:border-2 lg:rounded-full">
+    <div className="w-full absolute z-10 px-4 lg:px-14 top-0 lg:top-12">
+      <div className="flex flex-row items-center justify-between px-0 py-4 lg:py-0 lg:px-10 border-white bg-inherit lg:bg-inherit border-b-2">
         <Link href="/">
-          <Image
-            alt=""
-            src={icons.Logo}
-            className="h-14 w-auto lg:block hidden"
-          />
-          <Image
-            alt=""
-            src={icons.LogoDrawer}
-            className="h-10 w-auto lg:hidden block"
-          />
+          <Image alt="" src={icons.LogoFooter} className="h-20 w-auto" />
         </Link>
         <div className="block lg:hidden">
           <button
@@ -94,21 +90,22 @@ export default function Header() {
               style={
                 mobileMenuOpen ? { display: 'none' } : { display: 'block' }
               }
-              className="h-6 w-6 text-black"
+              className="h-6 w-6 text-white"
             />
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:items-center lg:gap-x-4">
           {menuList.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
-              className="text-xl font-light leading-7 text-white px-6"
+              target={item.target}
+              className={`text-base font-light leading-7 text-white uppercase ${item.target ? 'bg-white !rounded-full py-2 !text-primary px-6' : ''} px-4 py-2 rounded-lg`}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
-          <Popover className="relative pl-6">
+          <Popover className="relative pl-2">
             <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
               <Image
                 alt="flag country"
@@ -156,9 +153,9 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full bg-light px-4 py-5 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="pt-5 pl-4">
               <Image alt="" src={icons.LogoDrawer} className="h-10 w-auto" />
-            </a>
+            </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -175,13 +172,15 @@ export default function Header() {
             <div className="-my-6 ">
               <div className="space-y-2 py-6 divide-primary divide-y">
                 {menuList.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    target={item.target}
                     className="-mx-3 block px-3 py-2 text-base font-normal leading-7 text-primary hover:bg-primary-200 "
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
 
                 <Disclosure as="div" className="-mx-3">

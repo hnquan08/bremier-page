@@ -1,29 +1,29 @@
 {
   "book_now": "Book Now",
+  "send": "Send",
   "header": {
     "home": "Home",
-    "story": "Our Story",
     "service": "Service",
-    "review": "Review",
-    "membership": "Membership",
+    "review": "Custome Review",
+    "product": "Product",
+    "brelax_journey": "Brelax Journey",
     "book_now": "Book Now",
     "language": {
       "en": "English",
       "vn": "Vietnamese"
     }
   },
-  "main_banner": "Open your eyes to a new reality.",
   "our_service": "OUR SERVICES",
+  "main_banner": "Enter our exclusive hideaway where even the most anxious and stressed of souls will find relief.",
   "section": {
     "service": {
-      "title": "Services",
+      "title": "OUR SERVICES",
       "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
       "see_detail": "See detail"
     },
     "client_review": {
-      "title": "Client Review",
-      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
-      "see_detail": "SEE OUR SERVICES",
+      "title": "What our client say",
+      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy.",
       "job": "Student",
       "review_1": "Great experience at Bremiere. The combination of skillful therapists, serene ambiance, and great service made it a truly memorable visit. Staff are nice, professional and caring. Highly recommended!!! The massage techniques were exceptional, tailored perfectly to my preferences. The atmosphere was calming, with soothing music and soft lighting that added to the relaxation. The facilities were spotless and well-maintained, contributing to the overall positive experience. I will definitely be returning for another visit soon",
       "review_2": "If you're seeking a luxurious escape, look no further than Bremiere. The combination of a stunning setting, skilled therapists, and exceptional service creates an unforgettable experience. I left feeling completely rejuvenated and pampered. The staff's attentiveness and professionalism truly impressed me. The tranquil environment and exquisite attention to detail made every moment special. Bremiere is the perfect place to unwind and treat yourself to some well-deserved relaxation.",
@@ -32,27 +32,30 @@
       "review_5": "It's wonderful experiences. Very great combination between the light, sounds and massage techniques actually help me relax and relieve stress. The therapists are highly skilled and attentive, customizing the session to my needs. The ambiance is soothing, with soft lighting and calming music that enhance the overall experience. I felt all my tension melt away, leaving me feeling refreshed and revitalized. This is definitely a place I would recommend to anyone looking to unwind and de-stress."
     },
     "membership": {
-      "title": "Membership",
-      "description": "A place for comprehensive health and beauty care. We are proud to offer our customers relaxing and rejuvenating experiences with a variety of services such as",
-      "membership_1": "Weekday and weekend bathing passes available in 3, 5, and 10 packs for the die hard bather.",
-      "membership_2": "Weekday and weekend bathing passes available in 3, 5, and 10 packs for the die hard bather.",
-      "membership_3": "Weekday and weekend bathing passes available in 3, 5, and 10 packs for the die hard bather."
+      "title": "Become a Membership",
+      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
+      "membership_1": "Add-on 1.000.000 vnd <br/> Unlimited number of users<br/> Priority appointment booking<br/> Expiry date: 1 year.",
+      "membership_2": "Add-on 2.500.000 vnd<br/>Unlimited number of users<br/>Priority appointment booking<br/>Expiry date: 1 year.",
+      "membership_3": "Add-on 1.000.000 vnd<br/>Unlimited number of users<br/>Priority appointment booking<br/>Expiry date: 1 year.",
+      "buy_now": "Buy Now"
     },
     "blog": {
-      "title": "Blog",
+      "title": "Brelax journey",
       "description": "Welcome to Brelax Therapy Center, your trustful companion in the wellbeing lifestyle!",
       "blog_1": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
       "blog_2": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
       "blog_3": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
-      "read_more": "View more"
+      "blog_desc": "Weekday and weekend bathing passes available in 3, 5, and 10 packs for the die hard bather",
+      "read_more": "Read more"
     },
+    "hero_text": "Pay a visit to Brelax to let your senses be nurtured with nature. Feed the freshness and calmness in very breath you take and become a brand new you after each experience. The details that Brelax puts efforts in is how we want you to be taken care of, thoughtfully and throughly.",
     "location": {
       "title": "SPA LOCATION",
       "description": "Welcome to Brelax Therapy Center, your trustful companion in the wellbeing lifestyle!"
     },
     "hero": {
-      "title": "Get Recharged",
-      "description": "50% On First Couple Spa"
+      "title": "20% OFF EVERY DAY OF THE WEEK on our Tension Relief therapy package. ",
+      "placeholder": "Your email"
     },
     "appointment": {
       "title": "Booking",

@@ -1,18 +1,19 @@
 {
   "book_now": "Đặt ngay",
+  "send": "Gửi",
   "header": {
     "home": "Trang chủ",
-    "story": "Câu chuyện của chúng tôi",
     "service": "Dịch vụ",
     "review": "Đánh giá",
-    "membership": "Thành viên",
+    "product": "Sản phẩm",
+    "brelax_journey": "Hành trình Brelax",
     "book_now": "Đặt ngay",
     "language": {
       "en": "Tiếng Anh",
       "vn": "Tiếng Việt"
     }
   },
-  "main_banner": "Mở mắt ra một thế giới mới.",
+  "main_banner": "Hãy đến nơi ẩn náu độc quyền của chúng tôi, nơi mà ngay cả những tâm hồn lo lắng và căng thẳng nhất cũng sẽ tìm thấy sự giải tỏa.",
   "our_service": "Dịnh vụ của chúng tôi",
   "section": {
     "service": {
@@ -26,7 +27,7 @@
     },
     "client_review": {
       "title": "Đánh giá của khách hàng",
-      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội.",
       "see_detail": "Xem chi tiết",
       "job": "Sinh viên",
       "review_1": "Trải nghiệm tuyệt vời tại Bremiere. Sự kết hợp giữa các nhà trị liệu có tay nghề, không gian yên bình và dịch vụ tuyệt vời đã tạo nên một chuyến thăm đáng nhớ. Nhân viên rất thân thiện, chuyên nghiệp và chu đáo. Rất đáng để giới thiệu!!! Kỹ thuật massage rất xuất sắc, hoàn toàn phù hợp với sở thích của tôi. Không gian thư giãn với âm nhạc nhẹ nhàng và ánh sáng dịu dàng thêm vào sự thoải mái. Cơ sở vật chất sạch sẽ và được bảo trì tốt, góp phần vào trải nghiệm tích cực tổng thể. Tôi chắc chắn sẽ quay lại thăm lần nữa sớm thôi.",
@@ -36,28 +37,31 @@
       "review_5": "Đó là những trải nghiệm tuyệt vời. Sự kết hợp tuyệt vời giữa ánh sáng, âm thanh và kỹ thuật massage thực sự giúp tôi thư giãn và giảm căng thẳng. Các nhà trị liệu có tay nghề cao và chu đáo, tùy chỉnh buổi trị liệu theo nhu cầu của tôi. Không gian rất dễ chịu, với ánh sáng nhẹ nhàng và âm nhạc êm dịu làm tăng thêm trải nghiệm tổng thể. Tôi cảm thấy tất cả căng thẳng của mình tan biến, để lại tôi với cảm giác sảng khoái và tràn đầy năng lượng. Đây chắc chắn là nơi tôi sẽ giới thiệu cho bất kỳ ai muốn thư giãn và giảm căng thẳng."
     },
     "membership": {
-      "title": "Thành viên",
-      "description": "Một nơi để chăm sóc sức khỏe và sắc đẹp toàn diện. Chúng tôi tự hào mang đến cho khách hàng những trải nghiệm thư giãn và phục hồi với nhiều dịch vụ khác nhau như",
-      "membership_1": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
-      "membership_2": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
-      "membership_3": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
-      "button_view_all": "Xem tất cả sản phẩm"
+      "title": "Trở thành Thành viên",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
+      "membership_1": "Tặng thêm 1.000.000 vnd <br/> Không giới hạn số lượng người dùng<br/> Đặt lịch hẹn ưu tiên<br/> Ngày hết hạn: 1 năm.",
+      "membership_2": "Tặng thêm 2.500.000 vnd<br/>Không giới hạn số lượng người dùng<br/>Đặt lịch hẹn ưu tiên<br/>Ngày hết hạn: 1 năm.",
+      "membership_3": "Tặng thêm 1.000.000 vnd<br/>Không giới hạn số lượng người dùng<br/>Đặt lịch hẹn ưu tiên<br/>Ngày hết hạn: 1 năm.",
+      "button_view_all": "Xem tất cả sản phẩm",
+      "buy_now": "Mua ngay"
     },
     "blog": {
-      "title": "Bài viết",
+      "title": "Hành trình Brelax",
       "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!",
       "blog_1": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
       "blog_2": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
       "blog_3": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
+      "blog_desc": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
       "read_more": "Xem thêm"
     },
+    "hero_text": "Hãy đến Brelax để các giác quan của bạn được nuôi dưỡng bằng thiên nhiên. Nuôi dưỡng sự tươi mát và bình tĩnh trong từng hơi thở bạn hít vào và trở thành một con người hoàn toàn mới sau mỗi trải nghiệm. Những chi tiết mà Brelax nỗ lực thực hiện chính là cách chúng tôi muốn bạn được chăm sóc, chu đáo và kỹ lưỡng.",
     "location": {
       "title": "VỊ TRÍ SPA",
       "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!"
     },
     "hero": {
-      "title": "Get Recharged",
-      "description": "Giảm giá 50% cho cặp đôi đầu tiên"
+      "title": "GIẢM GIÁ 20% MỖI NGÀY TRONG TUẦN cho gói trị liệu giảm căng thẳng của chúng tôi.",
+      "placeholder": "Email của bạn"
     },
     "appointment": {
       "title": "Đặt lịch hẹn",

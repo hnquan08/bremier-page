@@ -10,7 +10,7 @@ import Service from '@/components/Sections/Service'
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:snap-mandatory lg:snap-y overflow-y-auto h-auto lg:h-screen">
+    <div className="flex flex-col lg:snap-mandatory lg:snap-y overflow-y-scroll scroll-smooth h-auto lg:h-screen relative">
       <MainBanner />
       <Service />
       <Review />
