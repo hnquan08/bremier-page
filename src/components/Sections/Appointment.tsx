@@ -27,10 +27,10 @@ function Appointment() {
         </p>
         <Image
           src={Banner}
-          className="h-72 lg:h-full col-span-12 lg:col-span-6"
+          className="h-72 lg:h-full w-full col-span-12 lg:col-span-7"
           alt=""
         />
-        <div className="lg:col-span-3 flex flex-col lg:items-start items-center text-center lg:text-start gap-6 w-full">
+        <div className="lg:col-span-3 h-full flex flex-col lg:items-start lg:justify-end items-center text-center lg:text-start gap-6 w-full">
           <h1
             className={`text-center hidden lg:block text-[28px] lg:text-5xl font-bold uppercase text-primary ${coconatDemi.className}`}
           >
@@ -91,12 +91,12 @@ function Appointment() {
             {t('book_now')}
           </button>
         </div>
-        <div className=" lg:col-span-3 flex flex-row gap-4 lg:mt-10">
-          <button className="p-2 bg-white text-black border-[1px] border-black rounded-full">
-            <ChevronLeftIcon className="w-6 h-6 font-bold" />
+        <div className="flex flex-row gap-4">
+          <button className=" p-1 bg-white text-primary rounded-full border-[1px] border-black">
+            <ChevronLeftIcon className="w-8 h-8 font-bold" />
           </button>
-          <button className="p-2 bg-white text-black border-[1px] border-black rounded-full">
-            <ChevronRightIcon className="w-6 h-6 font-bold" />
+          <button className=" p-1 bg-white text-primary rounded-full border-[1px] border-black">
+            <ChevronRightIcon className="w-8 h-8 font-bold" />
           </button>
         </div>
       </div>

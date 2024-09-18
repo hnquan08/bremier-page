@@ -1,7 +1,7 @@
 'use client'
+import { useTranslations } from 'next-intl'
 
 import { coconatBold, coconatDemi, coconatRegular } from '@/configs/fonts'
-import { useTranslations } from 'next-intl'
 
 function Hero() {
   const t = useTranslations()
@@ -24,7 +24,7 @@ function Hero() {
           className="input input-bordered w-full lg:w-1/3 bg-white rounded-full flex-1 px-4 py-2"
         />
         <button
-          className={`btn text-white ${coconatRegular.className} text-base rounded-full px-6`}
+          className={`btn text-white bg-black hover:bg-black hover:text-white ${coconatRegular.className} text-base rounded-full px-6`}
         >
           {t('send')}
         </button>

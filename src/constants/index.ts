@@ -1,16 +1,16 @@
-export const our_servies = [
+export const our_services = [
   {
     key: 'quick_healing',
     name: 'Quick Healing',
     desc: 'brings a comfortable, enjoyable experience with a luxurious space, helping you relax and take care of your.',
     service: [
       {
-        name: 'ROOTED: 30/60/90',
+        name: 'ROOTED: 30/60/90’',
         desc: 'Aenean massa. Cum sociis theme',
         price: '300/420/600',
       },
       {
-        name: 'LEAF: 30/60',
+        name: 'LEAF: 30/60’',
         desc: 'Aenean massa. Cum sociis theme',
         price: '270/400',
       },
@@ -22,24 +22,34 @@ export const our_servies = [
     desc: 'brings a comfortable, enjoyable experience with a luxurious space, helping you relax and take care of your.',
     service: [
       {
-        name: 'Makeup & Massage',
+        name: 'HEALER: 90/120’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '720/900',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'RELAX: 60/75/90/120’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '550/600/650/850',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'STRECH: 75/90/120’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '640/710/900',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'DEEP TISSUE: 75/90/120’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '640/710/900',
+      },
+      {
+        name: 'BODY SCRUB: 60’',
+        desc: 'Aenean massa. Cum sociis theme',
+        price: '660',
+      },
+      {
+        name: 'RADIANT FACIAL: 75’',
+        desc: 'Aenean massa. Cum sociis theme',
+        price: '800',
       },
     ],
   },
@@ -49,24 +59,19 @@ export const our_servies = [
     desc: 'brings a comfortable, enjoyable experience with a luxurious space, helping you relax and take care of your.',
     service: [
       {
-        name: 'Makeup & Massage',
+        name: 'ENERGIZE ME: 135’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '1000',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'CRYSTAL HEALING: 135’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '1000',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'PURIFY ME: 150’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
-      },
-      {
-        name: 'Makeup & Massage',
-        desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '1300',
       },
     ],
   },
@@ -76,24 +81,14 @@ export const our_servies = [
     desc: 'brings a comfortable, enjoyable experience with a luxurious space, helping you relax and take care of your.',
     service: [
       {
-        name: 'Makeup & Massage',
+        name: 'PERCUSSION: 30’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '300',
       },
       {
-        name: 'Makeup & Massage',
+        name: 'TENSION 01: 60’',
         desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
-      },
-      {
-        name: 'Makeup & Massage',
-        desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
-      },
-      {
-        name: 'Makeup & Massage',
-        desc: 'Aenean massa. Cum sociis theme',
-        price: '$350',
+        price: '580',
       },
     ],
   },

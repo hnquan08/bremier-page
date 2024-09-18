@@ -5,10 +5,10 @@ import { useTranslations } from 'next-intl'
 import Locations from '@/components/Sections/Locations'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-
-import { our_servies } from '@/constants'
-import { coconatBold, coconatDemi } from '@/configs/fonts'
 import Hero from '@/components/Sections/Hero'
+
+import { our_services } from '@/constants'
+import { coconatBold, coconatDemi } from '@/configs/fonts'
 
 export default function ServicePage() {
   const t = useTranslations()
@@ -28,7 +28,7 @@ export default function ServicePage() {
           {t('our_service')}
         </h1>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          {our_servies.map((service, index) => (
+          {our_services.map((service, index) => (
             <button
               key={service.key}
               onClick={() => setActive(index)}
@@ -38,8 +38,8 @@ export default function ServicePage() {
             </button>
           ))}
         </div>
-        <div className="hidden lg:flex flex-col gap-5 lg:gap-10 w-full lg:w-3/4 mt-10">
-          {our_servies[active].service.map((elm, index) => (
+        <div className="hidden lg:flex flex-col gap-5 lg:gap-5 w-full lg:w-3/4 mt-4">
+          {our_services[active].service.map((elm, index) => (
             <div key={elm.name + index} className="flex flex-col  text-white ">
               <div className="flex items-center">
                 <p className={`text-base lg:text-2xl ${coconatDemi.className}`}>
@@ -56,7 +56,7 @@ export default function ServicePage() {
         </div>
         {/* mobile */}
         <div className="lg:hidden flex flex-col gap-5 lg:gap-10 w-full lg:w-3/4 mt-10">
-          {our_servies[active].service.map((elm, index) => (
+          {our_services[active].service.map((elm, index) => (
             <div
               key={elm.name + index}
               className="flex flex-col gap-4 text-white "

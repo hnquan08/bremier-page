@@ -1,17 +1,12 @@
 'use client'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-
-import { our_servies } from '@/constants'
-import service_1 from '@/static/images/service-1.png'
-import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-} from '@headlessui/react'
-import { coconatRegular, coconatDemi, coconatBold } from '@/configs/fonts'
 import { useRouter } from 'next/navigation'
+
+import { our_services } from '@/constants'
+import { coconatDemi, coconatBold } from '@/configs/fonts'
+
+import service_1 from '@/static/images/service-1.png'
 
 function Service() {
   const t = useTranslations()
@@ -35,7 +30,7 @@ function Service() {
         {t('section.service.description')}
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 items-center justify-center w-full mt-8 relative">
-        {our_servies.map((item) => (
+        {our_services.map((item) => (
           <div
             key={item.name}
             className="service cursor-pointer col-span-1 flex flex-col items-center text-center lg:flex-col gap-5 py-5 hover:text-primary"
