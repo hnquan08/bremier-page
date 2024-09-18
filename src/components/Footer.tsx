@@ -16,7 +16,7 @@ export default function Footer() {
             <Image
               src={icons.LogoFooter}
               alt="logo"
-              className="h-16 w-auto mx-auto lg:mx-0"
+              className="h-10 lg:h-8 w-auto mx-auto lg:mx-0"
             />
             <div className="mt-4 lg:w-48 mx-auto lg:mx-0">
               <p className=" text-light text-base">

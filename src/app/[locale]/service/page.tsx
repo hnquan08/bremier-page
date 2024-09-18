@@ -5,10 +5,10 @@ import { useTranslations } from 'next-intl'
 import Locations from '@/components/Sections/Locations'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import Hero from '@/components/Sections/Hero'
 
 import { our_services } from '@/constants'
 import { coconatBold, coconatDemi } from '@/configs/fonts'
+import Hero from '@/components/Sections/Hero'
 
 export default function ServicePage() {
   const t = useTranslations()
