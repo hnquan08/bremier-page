@@ -16,7 +16,7 @@ export default function Footer() {
             <Image
               src={icons.LogoFooter}
               alt="logo"
-              className="h-10 lg:h-8 w-auto mx-auto lg:mx-0"
+              className="h-16 w-auto mx-auto lg:mx-0"
             />
             <div className="mt-4 lg:w-48 mx-auto lg:mx-0">
               <p className=" text-light text-base">
@@ -118,7 +118,9 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-light text-2xl uppercase ">
+              <p
+                className={`font-medium text-light text-2xl uppercase ${coconatRegular.className}`}
+              >
                 {t('footer.open_time.title')}
               </p>
 
@@ -144,7 +146,9 @@ export default function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-light text-2xl uppercase ">
+              <p
+                className={`font-medium text-light text-2xl uppercase ${coconatRegular.className}`}
+              >
                 {t('footer.contact.title')}
               </p>
 
