@@ -1,21 +1,25 @@
 'use client'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useTranslations } from 'next-intl'
+import { useSearchParams } from 'next/navigation'
 
 import Locations from '@/components/Sections/Locations'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import Hero from '@/components/Sections/Hero'
 
 import { our_services } from '@/constants'
 import { coconatBold, coconatDemi } from '@/configs/fonts'
-import Hero from '@/components/Sections/Hero'
-import { useSearchParams } from 'next/navigation'
 
 export default function ServicePage() {
   const t = useTranslations()
   const current = useSearchParams().get('tab') || 'quick_healing'
   const [active, setActive] = useState(current)
-  const index = our_services.findIndex((service) => service.key === current)
+
+  const index = useMemo(
+    () => our_services.findIndex((item) => item.key === active),
+    [active],
+  )
 
   return (
     <div className="flex flex-col w-full lg:snap-mandatory lg:snap-y overflow-y-auto h-auto lg:h-screen">
