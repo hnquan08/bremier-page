@@ -16,7 +16,7 @@ function Appointment() {
       id="book_now"
       className="flex flex-col gap-14 w-full items-center justify-center py-9 lg:py-[80px] px-4 lg:px-14 h-auto lg:h-screen lg:shrink-0 lg:snap-start"
     >
-      <div className="flex flex-col lg:grid lg:grid-cols-12 items-center lg:items-end gap-6 lg:gap-10 w-full h-full">
+      <div className="flex flex-col lg:grid lg:grid-cols-12 items-center lg:items-center gap-6 lg:gap-10 w-full">
         <h1
           className={`text-center lg:hidden text-[28px] lg:text-5xl font-bold text-primary ${coconatBold.className}`}
         >
@@ -91,11 +91,11 @@ function Appointment() {
             {t('book_now')}
           </button>
         </div>
-        <div className="flex flex-row gap-4">
-          <button className=" p-1 bg-white text-primary rounded-full border-[1px] border-black">
+        <div className="flex flex-row gap-4 lg:col-span-2 lg:h-full items-end">
+          <button className="btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-white hover:bg-inherit hover:border-black text-primary rounded-full border-[1px] border-black">
             <ChevronLeftIcon className="w-8 h-8 font-bold" />
           </button>
-          <button className=" p-1 bg-white text-primary rounded-full border-[1px] border-black">
+          <button className="btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-white hover:bg-inherit hover:border-black text-primary rounded-full border-[1px] border-black">
             <ChevronRightIcon className="w-8 h-8 font-bold" />
           </button>
         </div>
