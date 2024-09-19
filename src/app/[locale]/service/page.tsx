@@ -23,7 +23,7 @@ export default function ServicePage() {
 
   return (
     <div className="flex flex-col w-full lg:snap-mandatory lg:snap-y overflow-y-auto h-auto lg:h-screen">
-      <div className="lg:h-screen lg:shrink-0 lg:snap-start bg-service flex bg-cover h-auto pt-40 pb-8 lg:pt-[25dvh] px-6 flex-col gap-4 items-center relative">
+      <div className="lg:h-screen lg:shrink-0 lg:snap-start bg-service flex bg-cover min-h-screen pt-40 pb-8 lg:pt-[25dvh] px-6 flex-col gap-4 items-center relative">
         <Header />
         <h1
           className={`hidden lg:block text-center text-[28px] lg:text-5xl font-bold mb-5 text-white ${coconatDemi.className}`}
