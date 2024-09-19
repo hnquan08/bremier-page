@@ -1,41 +1,26 @@
 import localFont from 'next/font/local'
 
 export const coconatRegular = localFont({
-  src: './Coconat-Regular.woff2',
+  src: './DFVN-Coconat-Regular.otf',
   variable: '--font-coconat-regular',
 })
 
 export const coconatDemi = localFont({
-  src: './Coconat-Demi.woff2',
+  src: './DFVN-Coconat-Regular.otf',
   variable: '--font-coconat-demi',
 })
 
 export const coconatBold = localFont({
-  src: './Coconat-Bold.woff2',
+  src: './DFVN-Coconat-Bold.otf',
   variable: '--font-coconat-bold',
 })
 
-export const mosafinBold = localFont({
-  src: './Mosafin-Bold.otf',
-  variable: '--font-mosafin-bold',
-})
-
-export const mosafinBlack = localFont({
-  src: './Mosafin-Black.otf',
-  variable: '--font-mosafin-black',
-})
-
-export const mosafinExtraBold = localFont({
-  src: './Mosafin-ExtraBold.otf',
-  variable: '--font-mosafin-extra-bold',
-})
-
-export const mosafinMedium = localFont({
-  src: './Mosafin-Medium.otf',
-  variable: '--font-mosafin-medium',
-})
-
-export const mosafinSemiBold = localFont({
-  src: './Mosafin-SemiBold.otf',
+export const gilroySemiBold = localFont({
+  src: './SVN-Gilroy-Medium.otf',
   variable: '--font-mosafin-semi-bold',
+})
+
+export const gilroyRegular = localFont({
+  src: './SVN-Gilroy-Regular.otf',
+  variable: '--font-gilroy-regular',
 })
