@@ -1,111 +1,111 @@
 {
   "book_now": "Đặt ngay",
-  "send": "Gửi",
+  "booking_now": "Đặt ngay",
+  "submit": "Gửi",
   "header": {
     "home": "Trang chủ",
     "service": "Dịch vụ",
     "review": "Đánh giá",
     "product": "Sản phẩm",
-    "brelax_journey": "Hành trình Brelax",
+    "brelax_journey": "Hành trình bremiere",
     "book_now": "Đặt ngay",
     "language": {
       "en": "Tiếng Anh",
       "vn": "Tiếng Việt"
     }
   },
-  "main_banner": "Hãy đến nơi ẩn náu độc quyền của chúng tôi, nơi mà ngay cả những tâm hồn lo lắng và căng thẳng nhất cũng sẽ tìm thấy sự giải tỏa.",
+  "main_banner": "Nơi Mọi Giác Quan Đều Được Thức Tỉnh, và Mỗi Khoảnh Khắc Là Một Hành Trình Bên Trong",
   "our_service": "Dịnh vụ của chúng tôi",
   "section": {
     "service": {
       "title": "Dịch vụ",
-      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
-      "service_1": "Gội đầu thảo dược",
-      "service_2": "Massage",
-      "service_3": "Chăm sóc theo liệu trình",
-      "service_4": "Phòng xông hơi",
-      "see_detail": "Xem chi tiết"
+      "description": "Thực đơn của chúng tôi là một tác phẩm nghệ thuật, một bản giao hưởng của các giác quan được thiết kế tỉ mỉ. Mỗi dịch vụ chúng tôi cung cấp là một cánh cửa dẫn đến sự biến đổi vượt ra ngoài điều trị thông thường. Đó là lời mời bắt đầu hành trình sẽ đưa bạn đến một cấp độ sức khỏe sâu sắc mà mọi khía cạnh của bản thân bạn sẽ được tham gia và nuôi dưỡng.",
+      "service_1": "Thực đơn của chúng tôi phản ánh năng lượng và khám phá bên trong, cân bằng cơ thể, tâm trí và tâm hồn.",
+      "service_2": "Các giai đoạn của mặt trăng ảnh hưởng đến năng lượng của chúng ta, vì vậy chúng tôi cung cấp các dịch vụ tái tạo được điều chỉnh.",
+      "service_3": "Nâng cao sức khỏe của bạn với dịch vụ bổ sung Năng Lượng Mặt Trời 30 phút."
     },
     "client_review": {
       "title": "Đánh giá của khách hàng",
-      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội.",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một bremiere hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội.",
       "see_detail": "Xem chi tiết",
-      "job": "Sinh viên",
-      "review_1": "Trải nghiệm tuyệt vời tại Bremiere. Sự kết hợp giữa các nhà trị liệu có tay nghề, không gian yên bình và dịch vụ tuyệt vời đã tạo nên một chuyến thăm đáng nhớ. Nhân viên rất thân thiện, chuyên nghiệp và chu đáo. Rất đáng để giới thiệu!!! Kỹ thuật massage rất xuất sắc, hoàn toàn phù hợp với sở thích của tôi. Không gian thư giãn với âm nhạc nhẹ nhàng và ánh sáng dịu dàng thêm vào sự thoải mái. Cơ sở vật chất sạch sẽ và được bảo trì tốt, góp phần vào trải nghiệm tích cực tổng thể. Tôi chắc chắn sẽ quay lại thăm lần nữa sớm thôi.",
-      "review_2": "Nếu bạn đang tìm kiếm một nơi để thoát khỏi cuộc sống xa hoa, đừng tìm đâu xa hơn Bremiere. Sự kết hợp giữa khung cảnh tuyệt đẹp, các nhà trị liệu có tay nghề và dịch vụ xuất sắc tạo nên một trải nghiệm khó quên. Tôi đã rời đi với cảm giác hoàn toàn được tái tạo và chăm sóc. Sự chú ý và chuyên nghiệp của nhân viên thực sự làm tôi ấn tượng. Môi trường yên tĩnh và sự chú ý tỉ mỉ đến từng chi tiết đã làm cho mọi khoảnh khắc trở nên đặc biệt. Bremiere là nơi hoàn hảo để thư giãn và tự thưởng cho mình sự thư giãn xứng đáng.",
-      "review_3": "Chuyến thăm gần đây của tôi đến Bremiere là một trải nghiệm khó quên. Sự chuyên nghiệp của các nhà trị liệu không thể so sánh, kỹ thuật của họ đã làm tôi cảm thấy sảng khoái và tràn đầy năng lượng. Không gian yên bình và nhân viên chu đáo đã làm tăng thêm trải nghiệm. Đây là một điểm đến không thể bỏ qua cho bất kỳ ai muốn tìm kiếm sự thư giãn và tái tạo ở TP.HCM. Cơ sở vật chất sạch sẽ và thiết kế đẹp mắt, tăng thêm cảm giác sang trọng. Tôi rất khuyên bạn nên đến Bremiere nếu đang tìm kiếm một trải nghiệm spa hàng đầu.",
-      "review_4": "Không gian thực sự rất đẹp. Đã có một ngày thư giãn thực sự. Họ cũng có phòng xông hơi/ hơi nước. Nên thử. Ánh sáng dịu và âm nhạc nhẹ nhàng thêm vào môi trường yên tĩnh. Nhân viên cực kỳ thân thiện và chu đáo, luôn đảm bảo chúng tôi có mọi thứ chúng tôi cần. Cơ sở vật chất sạch sẽ và được bảo trì tốt, làm cho trải nghiệm càng thêm thú vị. Tôi rời đi với cảm giác hoàn toàn được tái tạo và không thể chờ đợi để quay lại lần nữa.",
-      "review_5": "Đó là những trải nghiệm tuyệt vời. Sự kết hợp tuyệt vời giữa ánh sáng, âm thanh và kỹ thuật massage thực sự giúp tôi thư giãn và giảm căng thẳng. Các nhà trị liệu có tay nghề cao và chu đáo, tùy chỉnh buổi trị liệu theo nhu cầu của tôi. Không gian rất dễ chịu, với ánh sáng nhẹ nhàng và âm nhạc êm dịu làm tăng thêm trải nghiệm tổng thể. Tôi cảm thấy tất cả căng thẳng của mình tan biến, để lại tôi với cảm giác sảng khoái và tràn đầy năng lượng. Đây chắc chắn là nơi tôi sẽ giới thiệu cho bất kỳ ai muốn thư giãn và giảm căng thẳng."
+      "review_1": "Mình hài lòng từ không gian đến dịch vụ tại spa. Không gian đẹp, tĩnh, tạo cảm giác nhẹ nhàng.Mình sử dụng dịch vụ 60', kỹ thuật tốt, chị nhân viên luôn hỏi thăm mình về lực tay có đủ chưa hay có đau không..blabla...iuuuuu. Sau liệu trình cảm thấy nguời thoải mái, nhẹ nhàng hơn, đỡ mỏi hơn.<br/>Xứng đáng trải nghiệm nhaaaa.",
+      "review_2": "Lần đầu tới trải nghiệm sau khi đọc review trên gg, không làm mình thấy thất vọng từ phong cách thời trang của các bạn lễ tân và ktv rất là hiện đại trẻ trung,năng động, phù hợp với mọi lứa tuổi. Mọi người nên đến trải nghiệm",
+      "review_3": "Không gian decor xinh cực, hương thơm dịu nhẹ khi vừa bước chân vào spa. Các bạn tư vấn chu đáo, nhiệt tình. Ngay trung tâm quận 1 thích hợp cho 1 ngày relax sau công việc.<br/>Hôm mình đi đã được tư vấn liệu trình healer cho 2 người, và cực kì hài lòng.",
+      "review_4": "Mình từng trải nghiệm massage đầu vai cổ ở nhiều nơi nhưng chưa chỗ nào mình ưng bằng bremiere. Service tốt, kĩ thuật tốt, massage xong nhẹ cả người. Nhất định sẽ quay lại nhiều lần."
     },
     "membership": {
       "title": "Trở thành Thành viên",
-      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
-      "membership_1": "Tặng thêm 1.000.000 vnd <br/> Không giới hạn số lượng người dùng<br/> Đặt lịch hẹn ưu tiên<br/> Ngày hết hạn: 1 năm.",
-      "membership_2": "Tặng thêm 2.500.000 vnd<br/>Không giới hạn số lượng người dùng<br/>Đặt lịch hẹn ưu tiên<br/>Ngày hết hạn: 1 năm.",
-      "membership_3": "Tặng thêm 1.000.000 vnd<br/>Không giới hạn số lượng người dùng<br/>Đặt lịch hẹn ưu tiên<br/>Ngày hết hạn: 1 năm.",
+      "description": "Trở thành thành viên để nhận nhiều lợi ích và tiết kiệm đến 25% cho dịch vụ.",
+      "membership_1": "10.000.000 VND <br/> Bổ sung 1.000.000VND<br/>6 THÁNG",
+      "membership_2": "20.000.000 VND<br/>Bổ sung 4.000.000<br/>9 THÁNG<br/>CHIA SẺ VỚI 1 BẠN BÈ",
+      "membership_3": "40.000.000 VND<br/>Bổ sung 10.000.000 VND<br/>1 NĂM<br/>CHIA SẺ VỚI 1 BẠN BÈ<br/>1 ÁO CHOÀNG TẮM CÓ TÊN",
       "button_view_all": "Xem tất cả sản phẩm",
       "buy_now": "Mua ngay"
     },
     "blog": {
-      "title": "Hành trình Brelax",
-      "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!",
+      "title": "Hành trình bremiere",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một bremiere hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn trong khi đắm mình trong một truyền thống cổ xưa.",
       "blog_1": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
       "blog_2": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
       "blog_3": "Bài tập xoay vai này sẽ giúp tăng cường và ổn định vai của bạn",
       "blog_desc": "Có bán vé tắm vào các ngày trong tuần và cuối tuần theo gói 3, 5 và 10 vé dành cho những người thích tắm biển.",
       "read_more": "Xem thêm"
     },
-    "hero_text": "Hãy đến Brelax để các giác quan của bạn được nuôi dưỡng bằng thiên nhiên. Nuôi dưỡng sự tươi mát và bình tĩnh trong từng hơi thở bạn hít vào và trở thành một con người hoàn toàn mới sau mỗi trải nghiệm. Những chi tiết mà Brelax nỗ lực thực hiện chính là cách chúng tôi muốn bạn được chăm sóc, chu đáo và kỹ lưỡng.",
+    "hero_text": "Chào mừng đến với Trung tâm trị liệu bremieree, nơi con đường từ việc tìm kiếm đến khám phá sẽ tiết lộ những kho báu ẩn giấu. Chúng tôi mời bạn dừng lại và suy ngẫm về những gì thực sự quan trọng giữa sự vội vã của cuộc sống. Chúng tôi tin rằng bản chất của cuộc sống được tìm thấy trong việc khám phá bản thân mình liên tục hơn là một điểm đến duy nhất.",
     "location": {
       "title": "VỊ TRÍ SPA",
-      "description": "Chào mừng đến với Trung tâm trị liệu Brelax, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!"
+      "description": "Chào mừng đến với Trung tâm trị liệu bremiere, người bạn đồng hành đáng tin cậy trong lối sống lành mạnh!"
     },
     "hero": {
-      "title": "GIẢM GIÁ 20% MỖI NGÀY TRONG TUẦN cho gói trị liệu giảm căng thẳng của chúng tôi.",
+      "title_1": "Giảm giá 20% cho lần trải nghiệm đầu tiên của bạn",
+      "title_2": "GIẢM GIÁ 30% cho dịch vụ Facial mới ra mắt Dr. Spiller - Pure SkinCare Solutions từ Đức",
       "placeholder": "Email của bạn"
     },
     "appointment": {
       "title": "Đặt lịch hẹn",
-      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một Brelax hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn khi tận hưởng",
+      "description": "Được tạo ra để khuếch đại cảm giác và niềm vui đơn giản của việc làm sạch sâu. Một bremiere hoàn toàn mới, bạn sẽ nóng nực, đầy bọt, lầy lội và bừa bộn khi tận hưởng",
       "address": {
-        "title": "Brelax Spa",
-        "content": "Phường Bến Nghé, Quận 1, ",
+        "title": "BREMIERE WELLNESS CENTER",
+        "content": "🏠 3fl, 17 Le Duan Blvd, Ben Nghe Ward, Dist 1, HCMC",
         "content_2": "TP.HCM, Việt Nam"
       },
       "contact": {
         "title": "Chỉ đường",
-        "hotline": "Hotline: (+84) 78 624 7778",
-        "email": "hideaway@brelaxmassage.com"
+        "hotline": "☎ 0283 823 5456 | 0903 038 504",
+        "email": "📧 bremiere@kiai.com.vn"
       },
       "open_time": {
         "title": "Giờ làm việc",
         "day": "Thứ Hai - Chủ Nhật",
-        "time": "9:30 sáng - 11:00 tối"
+        "time": "9:30 Sáng - 10:00 Tối (9:20 Sáng cuối cùng)"
       }
     }
   },
 
   "footer": {
+    "contact": {
+      "title": "Liên hệ",
+      "name": "Tên của bạn",
+      "email": "Email của bạn",
+      "message": "Tin nhắn của bạn ở đây"
+    },
     "logo": {
-      "address": "Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam",
+      "address": "Ben Nghe Ward, District 1 HCMC, Vietnam",
       "follow": "Theo dõi chúng tôi"
     },
     "page": {
-      "title": "TRANG",
+      "title": "PAGE",
       "home": "Trang chủ",
-      "about": "Về chúng tôi",
-      "blog": "Blog",
-      "contact": "Liên hệ"
+      "service": "Dịch vụ",
+      "customer": "Đánh giá khách hàng",
+      "membership": "Thành viên",
+      "KIA_journey": "Hành trình KIA"
     },
-    "open_time": {
-      "title": "Giờ mở cửa",
-      "day": "Thứ Hai - Chủ Nhật",
-      "time": "9:30 sáng - 11:00 tối"
+    "links": {
+      "title": "LINKS",
+      "term": "Điều khoản",
+      "privacy": "Chính sách bảo mật"
     },
-    "contact": {
-      "title": "Liên hệ",
-      "phone": "ĐT: (+84) 283 824 7778",
-      "email": "hideaway@brelaxmassage.com",
-      "hotline": "Hotline: (+84) 78 624 7778"
-    }
+    "copyRight": "Được thiết kế bởi MDS Solutions"
   }
 }

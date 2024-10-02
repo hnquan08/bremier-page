@@ -1,4 +1,4 @@
-import Logo from '../logo/brelax-logo-light.png'
+import Logo from '../logo/brelax-logo-light.svg'
 import LogoDrawer from '../logo/brelax-logo.png'
 import LogoFooter from '../logo/logo-footer.svg'
 import icFlagVN from './ic_flag-vn.svg'

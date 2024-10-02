@@ -2,27 +2,32 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
-import blog_1 from '@/static/images/blog/blog_1.png'
-import { ChevronRightIcon } from '@heroicons/react/24/outline'
 import { ArrowLongRightIcon } from '@heroicons/react/16/solid'
-import { coconatBold, coconatDemi, coconatRegular } from '@/configs/fonts'
+import { coconatBold, coconatRegular, gilroyRegular } from '@/configs/fonts'
+
+import blog_1 from '@/static/images/blog/blog_1.png'
+import blog_2 from '@/static/images/blog/blog_2.png'
+import blog_3 from '@/static/images/blog/blog_3.png'
 
 function Blog() {
   const t = useTranslations()
   const blogs = [
     {
+      image: blog_1,
       text: t('section.blog.blog_1'),
       desc: t('section.blog.blog_desc'),
       date: 'May 4, 2024',
       category: 'Wellness, Body',
     },
     {
+      image: blog_2,
       text: t('section.blog.blog_2'),
       desc: t('section.blog.blog_desc'),
       date: 'May 4, 2024',
       category: 'Wellness, Body',
     },
     {
+      image: blog_3,
       text: t('section.blog.blog_3'),
       desc: t('section.blog.blog_desc'),
       date: 'May 4, 2024',
@@ -37,16 +42,13 @@ function Blog() {
     >
       <div className="justify-center items-center flex flex-col w-full">
         <h1
-          className={`block lg:hidden text-center text-[28px] lg:text-5xl font-bold mb-5 text-primary uppercase ${coconatBold.className}`}
+          className={`text-center text-[28px] leading-[44px] lg:leading-[48px] lg:text-[36px] font-bold mb-5 text-primary uppercase ${coconatBold.className}`}
         >
           {t('section.blog.title')}
         </h1>
-        <h1
-          className={`hidden lg:block text-center text-[28px] lg:text-5xl font-bold mb-5 text-primary uppercase ${coconatDemi.className}`}
+        <p
+          className={`text-center text-base lg:text-lg font-thin w-full lg:w-[50%] ${gilroyRegular.className}`}
         >
-          {t('section.blog.title')}
-        </h1>
-        <p className="text-center text-base lg:text-lg font-light lg:font-medium w-full lg:w-[50%]">
           {t('section.blog.description')}
         </p>
       </div>
@@ -56,26 +58,32 @@ function Blog() {
             key={blog.category + index}
             className="p-4 rounded-xl flex flex-col gap-4 col-span-1 h-full  cursor-pointer"
           >
-            <div className="overflow-hidden rounded-[10px] max-h-[436px]">
+            <div className="overflow-hidden max-h-[436px]">
               <Image
-                src={blog_1}
+                src={blog.image}
                 alt=""
-                className="w-full h-64 rounded-lg hover:scale-110 duration-300 ease-linear"
+                className="w-full h-64 hover:scale-110 duration-300 ease-linear"
               />
             </div>
             <div className="flex flex-col gap-4">
-              <p>{blog.category + ' - ' + blog.date}</p>
+              <p className={`text-base ${gilroyRegular.className}`}>
+                {blog.category + ' - ' + blog.date}
+              </p>
               <p
-                className={`text-xl text-[#404041] font-normal ${coconatDemi.className}`}
+                className={`text-xl text-[#404041] font-normal ${coconatRegular.className}`}
               >
                 {blog.text}
               </p>
-              <p className="text-xl ">{blog.desc}</p>
+              <p
+                className={`text-lg text-[#969696] ${gilroyRegular.className}`}
+              >
+                {blog.desc}
+              </p>
             </div>
           </div>
         ))}
       </div>
-      <button className="btn btn-ghost text-base uppercase text-[#758C78] font-normal">
+      <button className="btn btn-ghost text-xl text-[#404041] font-normal">
         <span className={`${coconatRegular.className} `}>
           {t('section.blog.read_more')}
         </span>

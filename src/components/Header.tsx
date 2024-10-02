@@ -74,10 +74,10 @@ export default function Header() {
     },
   ]
   return (
-    <div className="w-full absolute z-10 px-4 lg:px-14 top-0 lg:top-12">
-      <div className="flex flex-row items-center justify-between px-0 py-4 lg:py-0 lg:px-10 border-white bg-inherit lg:bg-inherit border-b-2">
+    <div className="w-full absolute z-10 px-4 lg:px-14 top-0 lg:top-8">
+      <div className="flex flex-row items-center justify-between px-0 py-4 lg:px-10 border-white bg-inherit lg:bg-inherit border-b-2">
         <Link href="/">
-          <Image alt="" src={icons.LogoFooter} className="h-20 w-auto" />
+          <Image alt="" src={icons.Logo} className="h-10 w-auto" />
         </Link>
         <div className="block lg:hidden">
           <button
@@ -153,8 +153,8 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full bg-light px-4 py-5 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link href="/" className="pt-5 pl-4">
-              <Image alt="" src={icons.LogoDrawer} className="h-10 w-auto" />
+            <Link href="/" className="pt-5 pl-5">
+              <Image alt="" src={icons.LogoDrawer} className="h-15 w-auto" />
             </Link>
             <button
               type="button"

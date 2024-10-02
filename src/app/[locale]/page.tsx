@@ -16,7 +16,7 @@ export default function Home() {
       <Review />
       <MemberShip />
       <Blog />
-      <Hero />
+      <Hero text="section.hero.title_1" />
       <Appointment />
       <Footer />
     </div>

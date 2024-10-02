@@ -5,11 +5,6 @@ export const coconatRegular = localFont({
   variable: '--font-coconat-regular',
 })
 
-export const coconatDemi = localFont({
-  src: './DFVN-Coconat-Regular.otf',
-  variable: '--font-coconat-demi',
-})
-
 export const coconatBold = localFont({
   src: './DFVN-Coconat-Bold.otf',
   variable: '--font-coconat-bold',

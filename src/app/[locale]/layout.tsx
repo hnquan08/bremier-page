@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: 'KIAI Group',
   description: 'The Journey of Holistic Transformation from Within',
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.ico',
   },
 }
 
@@ -39,7 +39,7 @@ const RootLayout = ({
           <div className="relative">
             {children}
             <Link
-              href="https://brelaxmassage.com/bk/"
+              href="https://bremiere.myspa.vn/booking"
               target="_blank"
               className="btn btn-outline z-30 border-[1px] fixed hover:text-white hover:bg-[#7d8f7f] hover:border-white border-white lg:absolute bottom-11 rounded-full right-9 bg-[#7d8f7f] text-white"
             >

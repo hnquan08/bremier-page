@@ -1,12 +1,13 @@
 {
   "book_now": "Book Now",
-  "send": "Send",
+  "booking_now": "Booking Now",
+  "submit": "Submit",
   "header": {
     "home": "Home",
     "service": "Service",
     "review": "Custome Review",
     "product": "Product",
-    "brelax_journey": "Brelax Journey",
+    "brelax_journey": "Bremiere Journey",
     "book_now": "Book Now",
     "language": {
       "en": "English",
@@ -14,61 +15,63 @@
     }
   },
   "our_service": "OUR SERVICES",
-  "main_banner": "Enter our exclusive hideaway where even the most anxious and stressed of souls will find relief.",
+  "main_banner": "Where Every Sense is Awakened, and Every Moment is a Journey Within",
   "section": {
     "service": {
       "title": "OUR SERVICES",
-      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
-      "see_detail": "See detail"
+      "description": "Our menu is a work of art, a symphony of the senses meticulously designed. Each service we provide is a gateway to transformation that goes beyond ordinary treatment. It is an invitation to begin on a journey that will take you to a level of profound well-being in which every aspect of your being wil be engaged and fostered.",
+      "see_detail": "See detail",
+      "service_1": "Our menu reflects energy and inner discovery, balancing body, mind, and soul.",
+      "service_2": "The moon’s phases influence our energy, so we offer aligned rejuvenation services.",
+      "service_3": "Enhance your wellness with our 30-minute Solar Energy Boost add-on."
     },
     "client_review": {
       "title": "What our client say",
-      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy.",
-      "job": "Student",
-      "review_1": "Great experience at Bremiere. The combination of skillful therapists, serene ambiance, and great service made it a truly memorable visit. Staff are nice, professional and caring. Highly recommended!!! The massage techniques were exceptional, tailored perfectly to my preferences. The atmosphere was calming, with soothing music and soft lighting that added to the relaxation. The facilities were spotless and well-maintained, contributing to the overall positive experience. I will definitely be returning for another visit soon",
-      "review_2": "If you're seeking a luxurious escape, look no further than Bremiere. The combination of a stunning setting, skilled therapists, and exceptional service creates an unforgettable experience. I left feeling completely rejuvenated and pampered. The staff's attentiveness and professionalism truly impressed me. The tranquil environment and exquisite attention to detail made every moment special. Bremiere is the perfect place to unwind and treat yourself to some well-deserved relaxation.",
-      "review_3": "My recent visit to Bremiere was an unforgettable experience. The therapists' expertise was unparalleled, their techniques leaving me feeling refreshed and revitalized. The serene ambiance and attentive staff further enhanced the experience. This is a must-visit for anyone seeking relaxation and rejuvenation in Ho Chi Minh City. The facilities were impeccably clean and beautifully designed, adding to the overall sense of luxury. I highly recommend Bremiere to anyone looking for a top-tier spa experience.",
-      "review_4": "The atmosphere was really nice. Had a really relaxing day. They also have sauna/steam room. Should give it a try. The ambient lighting and soothing music added to the serene environment. The staff was incredibly friendly and attentive, always ensuring we had everything we needed. The facilities were clean and well-maintained, making the experience even more enjoyable. I left feeling completely rejuvenated and can't wait to visit again.",
-      "review_5": "It's wonderful experiences. Very great combination between the light, sounds and massage techniques actually help me relax and relieve stress. The therapists are highly skilled and attentive, customizing the session to my needs. The ambiance is soothing, with soft lighting and calming music that enhance the overall experience. I felt all my tension melt away, leaving me feeling refreshed and revitalized. This is definitely a place I would recommend to anyone looking to unwind and de-stress."
+      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new bremiere, you steamy, suddy.",
+      "review_1": "I'm very satisfied with both the atmosphere and the service at the spa. The space is beautiful and tranquil, creating a soothing feeling.I used a 60-minute service, and the technician consistently checked in to see if the pressure was okay or if I was in any discomfort. After the treatment, I felt much more relaxed and less tense.This is definitely a worthwhile experience!",
+      "review_2": "This was my first time visiting after reading reviews on Google, and I wasn't disappointed. The fashion style of the receptionists and technicians is very modern, youthful, and dynamic, suitable for all ages. Everyone should come and experience it!",
+      "review_3": "The decor is absolutely beautiful, and there's a gentle fragrance as soon as you step into the spa. The staff is attentive and enthusiastic. Located right in the center of District 1, it’s perfect for a relaxing day after work. On the day I visited, I was advised on a healing treatment for two people, and I was extremely satisfied.",
+      "review_4": "I've experienced head, shoulder, and neck massages at many places, but none compare to bremiere. The service is great, the technique is excellent, and I felt completely relaxed afterward. I will definitely return many times."
     },
     "membership": {
-      "title": "Become a Membership",
-      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
-      "membership_1": "Add-on 1.000.000 vnd <br/> Unlimited number of users<br/> Priority appointment booking<br/> Expiry date: 1 year.",
-      "membership_2": "Add-on 2.500.000 vnd<br/>Unlimited number of users<br/>Priority appointment booking<br/>Expiry date: 1 year.",
-      "membership_3": "Add-on 1.000.000 vnd<br/>Unlimited number of users<br/>Priority appointment booking<br/>Expiry date: 1 year.",
+      "title": "Membership",
+      "description": "Become a member to receive many benefits and save up to 25% on services.",
+      "membership_1": "10.000.000 VND <br/> ADD-ON 1.000.000VND<br/>6 MONTHS",
+      "membership_2": "20.000.000 VND<br/>ADD-ON 4.000.000<br/>9 MONTHS<br/>SHARE WITH 1 FRIEND",
+      "membership_3": "40.000.000 VND<br/>ADD-ON 10.000.000 VND<br/>1 YEAR<br/>SHARE WITH 1 FRIEND<br/>1 BATHROBE WITH NAME",
       "buy_now": "Buy Now"
     },
     "blog": {
-      "title": "Brelax journey",
-      "description": "Welcome to Brelax Therapy Center, your trustful companion in the wellbeing lifestyle!",
+      "title": "Bremiere journey",
+      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new bremiere, you steamy, suddy, muddy and messy while indulging in an ancient tradition.",
       "blog_1": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
       "blog_2": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
       "blog_3": "This Rotator Cuff Workout Will Strengthen and Stabilize Your Shoulders.",
       "blog_desc": "Weekday and weekend bathing passes available in 3, 5, and 10 packs for the die hard bather",
       "read_more": "Read more"
     },
-    "hero_text": "Pay a visit to Brelax to let your senses be nurtured with nature. Feed the freshness and calmness in very breath you take and become a brand new you after each experience. The details that Brelax puts efforts in is how we want you to be taken care of, thoughtfully and throughly.",
+    "hero_text": "Welcome to bremieree Wellness Center, where the path form seeking to discovering reveals hidden riches. We invite you to pause and reflect on what actually matters in the middle of life's rush. We believe that the substance of life is found in the constant exploration of self-discovery rather than is a single destination.",
     "location": {
       "title": "SPA LOCATION",
-      "description": "Welcome to Brelax Therapy Center, your trustful companion in the wellbeing lifestyle!"
+      "description": "Welcome to Bremiere Therapy Center, your trustful companion in the wellbeing lifestyle!"
     },
     "hero": {
-      "title": "20% OFF EVERY DAY OF THE WEEK on our Tension Relief therapy package. ",
+      "title_1": "Relaxcation to Get 𝟐𝟎% 𝐎𝐅𝐅 your first experience ",
+      "title_2": "30% OFF on our newly released Facial Service Dr. Spiller - Pure SkinCare Solutions from Germany",
       "placeholder": "Your email"
     },
     "appointment": {
       "title": "Booking",
-      "description": "Made to amplify the sensory and the simple pleasure of a deep clean. A brand new Brelax, you steamy, suddy, muddy and messy while indulging",
+      "description": "Where Every Sense is Awakened, and Every Moment is a Journey Within",
       "address": {
-        "title": "Brelax Spa",
-        "content": "Ben Nghe Ward, District 1",
+        "title": "BREMIERE WELLNESS CENTER",
+        "content": "🏠 3fl, 17 Le Duan Blvd, Ben Nghe Ward, Dist 1, HCMC",
         "content_2": "HCMC, Vietnam"
       },
       "contact": {
         "title": "Get Directions",
-        "hotline": "Hotline: (+84) 78 624 7778",
-        "email": "hideaway@brelaxmassage.com"
+        "hotline": "☎ 0283 823 5456 | 0903 038 504",
+        "email": "📧 bremiere@kiai.com.vn"
       },
       "open_time": {
         "title": "Working hours",
@@ -79,6 +82,12 @@
   },
 
   "footer": {
+    "contact": {
+      "title": "Contact",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message here"
+    },
     "logo": {
       "address": "Ben Nghe Ward, District 1 HCMC, Vietnam",
       "follow": "Follow us"
@@ -86,20 +95,16 @@
     "page": {
       "title": "PAGE",
       "home": "Homepage",
-      "about": "About us",
-      "blog": "Blog",
-      "contact": "Contact"
+      "service": "Service",
+      "customer": "Customer Review",
+      "membership": "Membership",
+      "KIA_journey": "KIA journey"
     },
-    "open_time": {
-      "title": "Opening time",
-      "day": "Monday - Sunday",
-      "time": "9.30am -11:00pm"
+    "links": {
+      "title": "LINKS",
+      "term": "Terms",
+      "privacy": "Privacy Policy"
     },
-    "contact": {
-      "title": "Contact",
-      "phone": "Tel: (+84) 283 824 7778",
-      "email": "hideaway@brelaxmassage.com",
-      "hotline": "Hotline: (+84) 78 624 7778"
-    }
+    "copyRight": "Designed by MDS Solutions"
   }
 }

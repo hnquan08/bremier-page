@@ -14,6 +14,7 @@ const config: Config = {
         heroService: "url('/bg-hero-service.png')",
         service: "url('/bg-service.png')",
         light: "url('/bg-light.png')",
+        footer: "url('/bg-footer.png')",
       },
       colors: {
         primary: '#385E55',
