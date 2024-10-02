@@ -76,7 +76,7 @@
       "open_time": {
         "title": "Working hours",
         "day": "Monday - Sunday",
-        "time": "9.30am -11:00pm"
+        "time": "9:30AM - 10:00PM (9:30 PM last booking)"
       }
     }
   },
