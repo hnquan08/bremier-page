@@ -17,15 +17,9 @@ export default function Locations() {
   const locations = [
     {
       image: locationImg2,
-      name: 'bremieree Le Duan',
+      name: 'Bremiere Le Duan',
       hotline: 'Hotline: 0283 823 5456 | 0903 038 504',
       address: '3fl, 17 Le Duan Blvd, Ben Nghe Ward, Dist 1, HCMC',
-    },
-    {
-      image: locationImg,
-      name: 'Brelax Nam Ky Khoi Nghia',
-      hotline: 'Hotline: (+84) 78 624 7778',
-      address: '38 Mac Thi Buoi st, Ben Nghe W, Dist 1, HCMC',
     },
   ]
   return (
@@ -58,13 +52,13 @@ export default function Locations() {
           }}
           breakpoints={{
             768: {
-              slidesPerView: 3,
+              slidesPerView: 1,
               spaceBetween: 25,
             },
           }}
           className="mySwiper flex flex-row items-center justify-center"
         >
-          {locations.concat(locations).map((location, index) => {
+          {locations.map((location, index) => {
             return (
               <SwiperSlide
                 key={location.name + index}
@@ -74,18 +68,14 @@ export default function Locations() {
                   <Image src={location.image} alt="" className="w-96 h-64" />
                   <div className="flex flex-col gap-2 p-4 bg-white">
                     <p
-                      className={`text-xl lg:text-2xl text-primary uppercase ${coconatRegular.className}`}
+                      className={`text-lg lg:text-xl text-primary uppercase ${coconatRegular.className}`}
                     >
                       {location.name}
                     </p>
-                    <p
-                      className={` text-base lg:text-2x ${gilroyRegular.className}`}
-                    >
+                    <p className={` text-base ${gilroyRegular.className}`}>
                       {location.hotline}
                     </p>
-                    <p
-                      className={` text-base lg:text-2x ${gilroyRegular.className}`}
-                    >
+                    <p className={` text-base ${gilroyRegular.className}`}>
                       {location.address}
                     </p>
                   </div>
@@ -97,7 +87,7 @@ export default function Locations() {
                         'noopener,noreferrer',
                       )
                     }
-                    className="btn btn-outline rounded-full text-black border-black hover:bg-transparent hover:border-black uppercase px-8 lg:!px-20 !py-1 hover:text-black text-xl font-light"
+                    className="btn btn-outline rounded-full text-black border-black hover:bg-transparent hover:border-black uppercase px-8 lg:!px-20 !py-1 hover:text-black text-base font-light"
                   >
                     {t('book_now')}
                   </button>

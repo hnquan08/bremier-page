@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
 import { Pagination, Navigation } from 'swiper/modules'
-import { useRouter } from 'next/navigation'
 
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 import { coconatBold, coconatRegular, gilroyRegular } from '@/configs/fonts'
@@ -13,23 +12,22 @@ import avatar from '@/static/images/avatar-review.png'
 function Review() {
   const t = useTranslations()
   const swipper = useSwiper()
-  const { push } = useRouter()
   const reviews = [
     {
       text: t('section.client_review.review_1'),
-      author: 'DƯƠNG MINH THƯ',
+      author: 'THI NGUYỄN',
     },
     {
       text: t('section.client_review.review_2'),
-      author: 'PHÚC HOÀNG',
+      author: 'PHẠM THỊ THANH THẢO',
     },
     {
       text: t('section.client_review.review_3'),
-      author: 'TUAN PHAM',
+      author: 'LUONG ANH',
     },
     {
       text: t('section.client_review.review_3'),
-      author: 'DANH BẢO NGUYỄN',
+      author: 'EDDIE TRAN',
     },
   ]
 
@@ -37,7 +35,7 @@ function Review() {
     <div className="flex flex-col">
       <div className="flex flex-col justify-center items-center lg:flex-row w-full h-screen lg:shrink-0 lg:snap-start bg-heroService bg-cover bg-center px-4 lg:px-48">
         <p
-          className={`${coconatRegular.className} text-center text-white text-xl lg:text-3xl font-normal`}
+          className={`${coconatRegular.className} text-center text-white text-xl lg:text-2xl font-normal`}
         >
           {t('section.hero_text')}
         </p>
@@ -48,7 +46,7 @@ function Review() {
           className="text-white flex flex-col items-center justify-center w-full"
         >
           <h1
-            className={`text-center text-[28px] lg:text-4xl mb-4 text-primary uppercase ${coconatBold.className}`}
+            className={`text-center text-[24px] lg:text-3xl mb-4 text-primary uppercase ${coconatBold.className}`}
           >
             {t('section.client_review.title')}
           </h1>

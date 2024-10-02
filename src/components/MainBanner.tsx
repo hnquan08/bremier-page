@@ -17,7 +17,7 @@ export default function MainBanner() {
       <div
         className={`absolute max-w-5xl h-full flex items-center justify-center text-center px-8 ${coconatBold.className}`}
       >
-        <p className="text-[28px] leading-[40px] lg:leading-[64px] lg:text-[48px] text-light font-normal">
+        <p className="text-[24px] leading-[40px] lg:leading-[64px] lg:text-[44px] text-light font-normal">
           {t('main_banner')}
         </p>
       </div>

@@ -15,12 +15,12 @@ function Service() {
       className="justify-center items-center flex flex-col py-9 lg:py-[75px] px-4 lg:px-14 w-full h-auto lg:h-screen lg:shrink-0 lg:snap-start"
     >
       <h1
-        className={`text-center text-[28px] leading-[44px] lg:leading-[48px] lg:text-[36px] font-bold mb-4 text-primary ${coconatBold.className}`}
+        className={`text-center text-[24px] leading-[44px] lg:leading-[48px] lg:text-[34px] font-bold mb-4 text-primary ${coconatBold.className}`}
       >
         {t('section.service.title')}
       </h1>
       <p
-        className={`text-center text-base lg:text-lg font-thin w-full lg:w-[50%] ${gilroyRegular.className}`}
+        className={`text-center text-sm lg:text-base font-thin w-full lg:w-[50%] ${gilroyRegular.className}`}
       >
         {t('section.service.description')}
       </p>
@@ -39,7 +39,7 @@ function Service() {
               />
             </div>
             <span
-              className={`text-xl lg:text-2xl uppercase text-primary ${coconatRegular.className}`}
+              className={`text-lg lg:text-xl uppercase text-primary ${coconatRegular.className}`}
             >
               {item.name}
             </span>

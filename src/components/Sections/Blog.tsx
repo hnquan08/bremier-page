@@ -42,7 +42,7 @@ function Blog() {
     >
       <div className="justify-center items-center flex flex-col w-full">
         <h1
-          className={`text-center text-[28px] leading-[44px] lg:leading-[48px] lg:text-[36px] font-bold mb-5 text-primary uppercase ${coconatBold.className}`}
+          className={`text-center text-[24px] leading-[44px] lg:leading-[48px] lg:text-[34px] font-bold mb-5 text-primary uppercase ${coconatBold.className}`}
         >
           {t('section.blog.title')}
         </h1>

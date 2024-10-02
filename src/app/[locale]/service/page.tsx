@@ -41,16 +41,16 @@ export default function ServicePage() {
       <div className="lg:h-screen min-h-screen lg:shrink-0 lg:snap-start bg-service flex bg-fixed lg:bg-cover bg-center pt-40 pb-8 lg:pt-[20dvh] px-4 flex-col gap-4 lg:gap-6 items-center relative">
         <Header />
         <h1
-          className={`text-center text-[28px] lg:text-4xl font-bold mb-5 text-white ${coconatBold.className}`}
+          className={`text-center text-[24px] lg:text-3xl font-bold mb-5 text-white ${coconatBold.className}`}
         >
           {t('our_service')}
         </h1>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
           {our_services.map((service) => (
             <button
               key={service.key}
               onClick={() => setActive(service.key)}
-              className={`col-span-1 btn btn-outline text-white border-white ${active === service.key && 'bg-white !text-black'} hover:bg-white hover:text-black rounded-full btn-xs lg:btn-md text-sm lg:text-base px-4 py-2 lg:!px-5 lg:!py-0 h-auto`}
+              className={`col-span-1 btn btn-outline text-white border-white ${active === service.key && 'bg-white !text-black'} hover:bg-white hover:text-black rounded-full btn-xs lg:btn-md text-sm px-4 py-2 lg:!px-5 lg:!py-0 h-auto`}
             >
               {service.name}
             </button>
@@ -79,7 +79,7 @@ export default function ServicePage() {
                         className="flex flex-col gap-2 text-white"
                       >
                         <p
-                          className={`text-xl lg:text-2xl ${coconatRegular.className}`}
+                          className={`text-lg lg:text-xl ${coconatRegular.className}`}
                         >
                           {elm.name}
                         </p>
@@ -89,13 +89,13 @@ export default function ServicePage() {
                         ></p>
                         <div className="flex items-center">
                           <p
-                            className={`text-xl lg:text-2xl ${coconatRegular.className}`}
+                            className={`text-lg lg:text-xl ${coconatRegular.className}`}
                           >
                             {elm.min}
                           </p>
                           <div className="flex-grow border-t border-dotted mx-2" />
                           <p
-                            className={`text-xl lg:text-2xl ${coconatRegular.className}`}
+                            className={`text-lg lg:text-xl ${coconatRegular.className}`}
                           >
                             {elm.price} VND
                           </p>

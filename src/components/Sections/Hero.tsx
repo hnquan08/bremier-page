@@ -8,7 +8,7 @@ function Hero({ text }: { text: string }) {
   return (
     <div className="flex flex-col gap-6 items-center justify-center py-14 px-4 bg-hero bg-cover lg:h-screen lg:shrink-0 lg:snap-start">
       <p
-        className={`text-white text-center lg:leading-[72px] text-3xl lg:text-5xl mb-6 font-medium w-full lg:w-[70%] uppercase ${coconatBold.className}`}
+        className={`text-white text-center lg:leading-[72px] text-3xl lg:text-4xl mb-6 font-medium w-full lg:w-[70%] uppercase ${coconatBold.className}`}
       >
         {t(text)}
       </p>

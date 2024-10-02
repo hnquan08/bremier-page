@@ -33,7 +33,7 @@ function MemberShip() {
     >
       <div className="text-white justify-center items-center flex flex-col w-full">
         <h1
-          className={`text-center text-[28px] text-white leading-[44px] lg:leading-[48px] lg:text-[36px] font-bold mb-5 uppercase ${coconatBold.className}`}
+          className={`text-center text-[24px] text-white leading-[44px] lg:leading-[48px] lg:text-[34px] font-bold mb-5 uppercase ${coconatBold.className}`}
         >
           {t('section.membership.title')}
         </h1>
@@ -63,11 +63,11 @@ function MemberShip() {
                 {mem.level}
               </p>
               <p
-                className={`text-lg text-center font-light ${gilroyRegular.className}`}
+                className={`text-base text-center font-light ${gilroyRegular.className}`}
                 dangerouslySetInnerHTML={{ __html: mem.desc }}
               ></p>
             </div>
-            <button className="btn btn-outline rounded-full text-white border-white hover:bg-transparent hover:border-white uppercase px-8 lg:!px-20 !py-1 hover:text-white text-xl font-light">
+            <button className="btn btn-outline rounded-full text-white border-white hover:bg-transparent hover:border-white uppercase px-8 lg:!px-20 !py-1 hover:text-white text-lg font-light">
               {t('section.membership.buy_now')}
             </button>
           </div>
