@@ -104,13 +104,13 @@ function Review() {
         </div>
         <div className="flex flex-row gap-4 btn-swiper">
           <button
-            className=" prev p-1 bg-white text-primary rounded-full border-[1px] border-black"
+            className="!flex prev p-1 bg-white text-primary rounded-full border-[1px] border-black"
             onClick={() => swipper?.slidePrev()}
           >
             <ChevronLeftIcon className="w-5 h-5 font-bold" />
           </button>
           <button
-            className=" next p-1 bg-white text-primary rounded-full border-[1px] border-black"
+            className="!flex next p-1 bg-white text-primary rounded-full border-[1px] border-black"
             onClick={() => swipper?.slideNext()}
           >
             <ChevronRightIcon className="w-5 h-5 font-bold" />

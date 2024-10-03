@@ -99,13 +99,13 @@ export default function Locations() {
       </div>
       <div className="flex flex-row gap-4 btn-swiper">
         <button
-          className=" prev p-2 bg-white text-primary rounded-full border-[1px] border-black"
+          className="!flex prev p-2 bg-white text-primary rounded-full border-[1px] border-black"
           onClick={() => swipper?.slidePrev()}
         >
           <ChevronLeftIcon className="w-6 h-6" />
         </button>
         <button
-          className=" next p-2 bg-white text-primary rounded-full border-[1px] border-black"
+          className="!flex next p-2 bg-white text-primary rounded-full border-[1px] border-black"
           onClick={() => swipper?.slideNext()}
         >
           <ChevronRightIcon className="w-6 h-6" />

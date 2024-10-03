@@ -111,13 +111,13 @@ export default function ServicePage() {
         <div className="flex flex-row gap-4 btn-swiper">
           <button
             onClick={() => swipper?.slidePrev()}
-            className="prev btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-inherit hover:bg-inherit hover:text-white hover:border-white text-white rounded-full border-[1px] border-white"
+            className="prev !flex btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-inherit hover:bg-inherit hover:text-white hover:border-white text-white rounded-full border-[1px] border-white"
           >
             <ChevronLeftIcon className="w-8 h-8 font-bold" />
           </button>
           <button
             onClick={() => swipper?.slideNext()}
-            className="next btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-inherit hover:bg-inherit hover:text-white hover:border-white text-white rounded-full border-[1px] border-white"
+            className="next !flex btn btn-md btn-outline !h-10 w-10 !min-h-10 !px-0 bg-inherit hover:bg-inherit hover:text-white hover:border-white text-white rounded-full border-[1px] border-white"
           >
             <ChevronRightIcon className="w-8 h-8 font-bold" />
           </button>
